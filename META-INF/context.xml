@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/knowledge" auth="Container"
+		type="javax.sql.DataSource" driverClassName="com.mysql.cj.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/knowledge?useSSL=false&amp;serverTimezone=JST"
+		username="app-user" password="Kn0w1eDgE" maxTotal="30" maxIdle="10"
+		maxWaitMillis="5000" />
+</Context>
